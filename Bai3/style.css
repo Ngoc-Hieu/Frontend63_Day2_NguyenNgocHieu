@@ -1,0 +1,45 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+header{
+    background-color: lightsteelblue;
+    height: 50px;
+}
+header center h2{
+    padding: 10px;
+}
+main{
+    justify-items: center;
+}
+.product{
+    width: 210px;
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-items: center;
+    padding: 10px;
+    margin: 5px 8px;
+}
+.product img{
+    width:200px;
+    height: 200px;
+}
+.product img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+p del{
+    color: grey;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
